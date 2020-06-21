@@ -44,7 +44,7 @@ function User({ error, user }) {
 /* 
  Use getServerSideProps if the requested data needs to change
  the page layout during RUNTIME -- when the project is running 
- in production (next start), this will called every time this 
+ in production (next start), this will be called every time this 
  page is loaded.
 */
 export async function getServerSideProps({ query }) {
